@@ -1,0 +1,93 @@
+.pageContainer{
+  display:flex;
+  flex-flow: column;
+-  border: 1px solid black;
+-}
+-
++  border: 4px ridge #bfdfff;
++  border-radius: 8px;
++  background-image: url(../img/c1bf4bcf.png);
+}
+.instructions{
++  text-align: center;
++  font-family: 'Lora', serif;
++  font-size: 20px;
+  border: 1px solid black;
+-  line-height: 25px;
++  line-height: 35px;
++  padding-left: 15px;
++  padding-right: 15px;
+}
+
+.Image{
+  width:25%;
+  margin: 20px;
+}
+}
+.imgLeftBox,
+.imgCenterBox,
+.imgRightBox{
+width:25%;
+margin: 20px;
+
+}
+#image1,
+#image2,
+#image3{
+  width:20%;
+  margin: 20px;
+}
+
+/*.imgLeftBox{
+  display:flex;
+-  width: 50px;
+-  height: 50px;
++  width: 50px;
++  height: 50px;
++  border: 4px ridge #bfdfff;
++  border-radius: 8px;
++  justify-content: center;
++    background-color: #ffffff;
+}
+#image1 img{
+-  width: 50px;
+-  height: 50px;
+-  border: 1px solid black;
+-  margin:auto;
+}
+.imgCenterBox{
+  display:flex;
+-  width: 50px;
+-  height: 50px;
++  width: 50px;
++  height: 50px;
++  border: 4px ridge #bfdfff;
++  border-radius: 8px;
++  justify-content: center;
++    background-color: #ffffff;
+}
+#image2 img{
+-  width: 50px;
+-  height: 50px;
+-  border: 1px solid black;
+-  margin: auto;
+}
+.imgRightBox{
+  display:flex;
+-  width: 50px;
+-  height: 50px;
++  width: 50px;
++  height: 50px;
++  border: 4px ridge #bfdfff;
++  border-radius: 8px;
++  justify-content: center;
++  background-color: #ffffff;
+}
+#image3 img{
+-  width: 50px;
+-  height: 50px;
+-  border: 1px solid black;
+-  margin: auto;
+}
+
+.graphBox{*/
